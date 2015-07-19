@@ -29,7 +29,7 @@
 <img src="https://cloud.githubusercontent.com/assets/2620870/8724471/3cb943f4-2ba6-11e5-99cd-d645fb9e824f.png" width="300">
 </span>
 
-+ **Providers:** Sick beard index and Womble provider are blocking SR application so avoid use them
++ **Providers:** Sick beard index and Womble provider are blocking SR application so avoid using them
 
 + **Develop branch**
 
