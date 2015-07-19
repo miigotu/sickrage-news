@@ -2,6 +2,15 @@
 
 <br/>
 
+####2015-07-18###
+
+- Added setting to disable SSL certificate verification under config -> general -> advanced settings
+  (Committed on July 15)
+
+  This might help if you have SSL errors
+
+<br/>
+
 ####2015-07-17####
 
 - Added new sub-menu called "Changelog". You can check what has changed in SickRage in each release
