@@ -4,6 +4,10 @@
 
 * Fixed: Template issue when no lang was set for show info
 * Fixed: Download client import
+* Fixed: Error while opening a shows page [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2183)
+* Change: Rename clients .py files to avoid conflicts with libs
+* Change: Made episodes with airdate as 'never' to UNAIRED
+* Changed some logs regarding air dates & torrent files
 
 ### 4.0.38 (2015-07-18)
 
