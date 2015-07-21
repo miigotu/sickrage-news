@@ -1,5 +1,10 @@
 ## News from SickRage developers
 
+####Please read [Wiki/FAQ](https://github.com/SiCKRAGETV/SickRage/wiki) before opening an issue####
+All issues and error reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket)
+
+We can track better errors reports in GitHub. Not so much in SickRage forum
+
 <br/>
 
 ####2015-07-18###
