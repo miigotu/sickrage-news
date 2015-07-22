@@ -9,7 +9,16 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
-####2015-07-18###
+####2015-07-21####
+
+- Added ability to run an external script for every subtitle downloaded (can be used to embed subs in mkv/mp4)
+    For info about the parameters passed see [PR#2139](https://github.com/SiCKRAGETV/SickRage/pull/2139)
+
+- Added IRC tab in web ui, to connect to the SickRage IRC channel
+
+<br />
+
+####2015-07-18####
 
 - Added setting to disable SSL certificate verification under config -> general -> advanced settings
   (Committed on July 15)
