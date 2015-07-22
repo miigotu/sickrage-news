@@ -1,3 +1,62 @@
+### 4.0.42 (2015-07-22)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.41...v4.0.42)
+
+
+* Added: IRC to SickRage
+* Added: Missing subtitle flag for Afrikaans
+* Added: API command to get the fan art of a show
+* Fixed: Max title length for issues
+* Fixed: TRAKT log message to use pattern SXXEXX
+* Fixed: Default argument when not provided
+* Fixed: Notification when searching subtitles through web api
+* Fixed: Permissions on downloaded subtitles
+* Fixed: TVShow not having a self.show.name
+* Change: Auto remove old clients files
+* Change: Show REFRESH normal priority - avoid stuck other threads 
+* Change: Show add priority
+* Change: Enable GIT RESET by default
+* Change: Stoped redirecting ssl error
+* Change: Stop building for 2.6, and set readme requirements to 2.7.x
+* Change: Check free space of show folder instead of it's parent
+* Change: Migrated travis to a container-based infrastructure
+* Change: Made SxxExx pattern as default in log messages
+* Change: Show only basename of filename in display show
+* Change: Disabled auto set as "air-by-date" as it's not a proper code.
+* Change: Made "Filter Row" in shows page enabled by default
+* Change: Show image dir in warning message"unable to retrieve image"
+* Removed: Sick Beard Index from default providers list
+* Added: Auto fix for show lang = 0 [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2206)
+* Added: Ability to run external script after a video downloads subtitles
+* Added: A several new network logos
+
+### 4.0.41 (2015-07-19)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.40...v4.0.41)
+
+
+* Added: NZBGeek to default newznab providers
+* Added: Default Ep Status to WebAPI CMD_ShowAddNew
+* Fixed: Search indexers api
+* Fixed: Filesize requiring ZIP64 extensions
+* Fixed: Error on Cpasbien provider [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2203)
+* Fixed: WANTED episodes that haven't aired
+* Change: Don't allow chained call with command show.getnetworklogo
+* Change: Behind the scenes cleanup of ```tv.py```
+* Removed: zoink.ch caching website
+* Added: New word to removeWordList
+* Added: Missing api methods to apibuilder
+* Added: A ton of new network logos
+
+### 4.0.40 (2015-07-19)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.39...v4.0.40)
+
+* Change: Episodes with airdate = 1 arent considered as aired anymore
+* Change: changes.md & news.md are now loaded from their own repo
+* Added: TitansOfTV torrent provider
+* Added: global and abc (ja) network icons
+
 ### 4.0.39 (2015-07-18)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.38...v4.0.39)
@@ -15,7 +74,8 @@
 
 * Fixed: URL with double http://
 * Added: Fox Crime logo
-* Added: Better log message when error downloading subs* Change: Improved log line for guessit/subliminal errors
+* Added: Better log message when error downloading subs
+* Change: Improved log line for guessit/subliminal errors
 * Change: Use repo for network timezones and scene exceptions again
 * Change: Add file name to error when subs download fails
 * Updated: readme.md & news.md
