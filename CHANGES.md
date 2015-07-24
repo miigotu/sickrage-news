@@ -1,3 +1,26 @@
+### 4.0.43 (2015-07-24)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.42...v4.0.43)
+
+
+* Added: Missing network logos
+* Added: Xthor torrent provider
+* Added: Thetorrent.org and btdig.com
+* Added: Added misc. logs to improve debugging
+* Added: Ability to set default start page of SR, in config->general
+* Fixed: Flag display in missed subtitle management
+* Fixed: Season search bug in newznab
+* Fixed: Search results not filtered by quality, ignored/required words, white/blacklist, etc.
+* Fixed: Chmod of subtitles when not using multi subs
+* Fixed: Collapse button in missed subtitle management
+* Change: To use configured github username for IRC by default
+* Change: Cropped support image
+* Change: Improved refresh of scene numbering from XEM
+* Change: Don't log IP when its a successful connection to SR
+* Changed PP error to warning
+* Updated: RemoveWordsList
+* Removed: Torrage ,for now
+
 ### 4.0.42 (2015-07-22)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.41...v4.0.42)
@@ -6,6 +29,9 @@
 * Added: IRC to SickRage
 * Added: Missing subtitle flag for Afrikaans
 * Added: API command to get the fan art of a show
+* Added: Auto fix for show lang = 0 [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2206)
+* Added: Ability to run external script after a video downloads subtitles
+* Added: A several new network logos
 * Fixed: Max title length for issues
 * Fixed: TRAKT log message to use pattern SXXEXX
 * Fixed: Default argument when not provided
@@ -26,9 +52,6 @@
 * Change: Made "Filter Row" in shows page enabled by default
 * Change: Show image dir in warning message"unable to retrieve image"
 * Removed: Sick Beard Index from default providers list
-* Added: Auto fix for show lang = 0 [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2206)
-* Added: Ability to run external script after a video downloads subtitles
-* Added: A several new network logos
 
 ### 4.0.41 (2015-07-19)
 
@@ -37,6 +60,9 @@
 
 * Added: NZBGeek to default newznab providers
 * Added: Default Ep Status to WebAPI CMD_ShowAddNew
+* Added: New word to removeWordList
+* Added: Missing api methods to apibuilder
+* Added: A ton of new network logos
 * Fixed: Search indexers api
 * Fixed: Filesize requiring ZIP64 extensions
 * Fixed: Error on Cpasbien provider [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2203)
@@ -44,9 +70,6 @@
 * Change: Don't allow chained call with command show.getnetworklogo
 * Change: Behind the scenes cleanup of ```tv.py```
 * Removed: zoink.ch caching website
-* Added: New word to removeWordList
-* Added: Missing api methods to apibuilder
-* Added: A ton of new network logos
 
 ### 4.0.40 (2015-07-19)
 
