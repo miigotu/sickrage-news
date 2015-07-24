@@ -9,6 +9,12 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-07-23####
+
+ - Now you can choose your default page when opening/logging to SR (General Options > Misc > Initial page)
+
+<br/>
+
 ####2015-07-21####
 
 - Added ability to run an external script for every subtitle downloaded (can be used to embed subs in mkv/mp4)
