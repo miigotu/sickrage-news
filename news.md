@@ -9,6 +9,12 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-07-24####
+
+ - if you have issues with bad characters in files names and/or in the SR interface please FULL update & refresh all your shows and force a mass rename after. Depending on your library size it can take some minutes or some hours. Backup DB first.
+
+<br/>
+
 ####2015-07-23####
 
  - Now you can choose your default page when opening/logging to SR (General Options > Misc > Initial page)
