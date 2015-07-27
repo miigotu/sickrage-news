@@ -1,3 +1,26 @@
+### 4.0.45 (2015-07-26)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.44...v4.0.45)
+
+
+* Added: Saving history limit
+* Fixed: Paused show still downloading
+* Fixed: Don't pass None to markdown2 when request fails
+
+### 4.0.44 (2015-07-25)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.43...v4.0.44)
+
+
+* Added: Informations about filter in show page
+* Added: FTDB to removeWordsList
+* Fixed: Staggered Backlog Searches
+* Fixed: Restart default page
+* Changed: Set default page for more actions
+* Changed: Update template to show "Loading the default page" and not home page
+* Changed: Remove some log lines to avoid spam log
+* Changed: Force git reset in user settings
+
 ### 4.0.43 (2015-07-24)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.42...v4.0.43)
@@ -19,7 +42,7 @@
 * Change: Don't log IP when its a successful connection to SR
 * Changed PP error to warning
 * Updated: RemoveWordsList
-* Removed: Torrage ,for now
+* Removed: Torrage, for now
 
 ### 4.0.42 (2015-07-22)
 
@@ -31,7 +54,7 @@
 * Added: API command to get the fan art of a show
 * Added: Auto fix for show lang = 0 [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2206)
 * Added: Ability to run external script after a video downloads subtitles
-* Added: A several new network logos
+* Added: Several new network logos
 * Fixed: Max title length for issues
 * Fixed: TRAKT log message to use pattern SXXEXX
 * Fixed: Default argument when not provided
@@ -39,7 +62,7 @@
 * Fixed: Permissions on downloaded subtitles
 * Fixed: TVShow not having a self.show.name
 * Change: Auto remove old clients files
-* Change: Show REFRESH normal priority - avoid stuck other threads 
+* Change: Show REFRESH normal priority - avoid stuck other threads
 * Change: Show add priority
 * Change: Enable GIT RESET by default
 * Change: Stoped redirecting ssl error
@@ -140,7 +163,7 @@
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.32...v4.0.33)
 
-* Fixed: Exceptions in Trakt requests 
+* Fixed: Exceptions in Trakt requests
 * Added: Auto fix bad subtitle codes
 * Added: Several missing subtitle flags
 * Added: Option in add show settings to pick what status for all future episodes, in addition to previous episodes
@@ -252,7 +275,7 @@
 * Fixed: Missed import
 * Fixed: Missing import for show_name_helpers
 * Added: Trakt empty token error message
-* Added: Build caching for travis. 
+* Added: Build caching for travis.
 * Disabled: feedparser test
 * Cleaned: Name cache
 * Change: Strip ". -" from names after removeWords
@@ -266,7 +289,7 @@
 * Change: Change USER_AGENT back to SR
 * Changed cpu_presets
 * Updated: webserve.py
-* Updated: tornado to 4.1.0 from 4.1.0dev1 
+* Updated: tornado to 4.1.0 from 4.1.0dev1
 
 ### 4.0.27 (2015-06-18)
 
@@ -337,7 +360,7 @@
 * Fixed SiCKRAGETV/sickrage-issues#1691
 * Added failed option to PP API
 * Added Add size attribute in providers.generic for nzb providers
-* Feature: Trakt PIN Auth 
+* Feature: Trakt PIN Auth
 * Revert: "Update template"
 * Change: Also catch BadStatusLine
 * Change: Lowercase date fuzzies were ugly, and the 'last' keyword suggests > 7 days ago
@@ -353,7 +376,7 @@
 * Added several network logos
 * Added the ability to browse possible links found in the homepage for the EZTV provider
 * Changed the InitScripts to use variable names and file names referencing SickRage, instead of SickBeard, to prevent conflicts, and improve readability
-* Feature: Add Fanart to local image cache 
+* Feature: Add Fanart to local image cache
 
 ### 4.0.20 (2015-05-10)
 
@@ -363,8 +386,8 @@
 * Fixed funky Quality Names
 * Fixed the sb.searchindexers function of the web API so it doesn't immediately return after finding no results from the first indexer
 * Fixed html changes in http://eztv.ch
-* Fixed 'NoneType' object has no attribute 'whitelist 
-* Added flexibility when determine title from link in eztvapi.re 
+* Fixed 'NoneType' object has no attribute 'whitelist
+* Added flexibility when determine title from link in eztvapi.re
 * Added missing "The Anime Network" logo
 * Enable trending shows only if Trakt is enabled
 * Change: SCC doesn't support searching dates with pipe characters. Use '.' instead
@@ -489,7 +512,7 @@
 * Added gzip setting in config.ini
 * Added TRAKTROLLING to filter in viewlog
 * Redone Scheduler
-* Replace fuzzy images on Add Show ( Add Trending) 
+* Replace fuzzy images on Add Show ( Add Trending)
 
 ### 4.0.15 (2015-04-05)
 
@@ -525,14 +548,14 @@
 * Added more network logs
 * Added anime regex for 003-004. Show Name - Ep Name.ext
 * Added Quality check even if SR itself downloaded the episode
-* Added Default Info Language in general settings 
+* Added Default Info Language in general settings
 * Fixed password encryption when restoring backup to another computer
 * Fixed T411 torrent name with special chars
 * Fixed PP when higher quality have lower size making SR re-download multiple times
 * Fixed Trakt exceptions
 * Fixed debug and db events in log when debug log is disabled
 * Fixed showupdater when user changed updater hour and thread didn't restart
-* Fixed inc_top.tmpl loading unnecessary stuff when not logged 
+* Fixed inc_top.tmpl loading unnecessary stuff when not logged
 * Fixed gitignore issue with relative folder
 * Fixed Add show with improperly decoded utf-8 characters
 * Fixed PP episodes with Airdate. Check without season 0 first
@@ -545,7 +568,7 @@
 * Fixed Torrent file content is empty on magnet torrent
 * Fixed search show name in Home
 * Hide Proxy indexers settings when proxy host is empty
-* Change removed episodes status from IGNORED to ARCHIVED 
+* Change removed episodes status from IGNORED to ARCHIVED
 
 ### 4.0.13 (2015-03-22)
 
@@ -701,7 +724,7 @@
 * Fix msg created witout MIMEext
 * Fix pyUnrar2 on bad archive
 * Fix rarbg provider searchstring encoding
-* Fix restart timeout 
+* Fix restart timeout
 * Fix set date/time to local tz when local is choosen
 * Fix Show Lookups on Indexer
 * Fix time display for fuzzy dates with trim zero and 24 hour time style
@@ -756,7 +779,7 @@
 * Updated Requests to 2.5.1
 * Use hostname rather than IP
 * Use sbdatetime instead of self
-* UTF-8 encode url that is used in urllib.quote_plus(url) 
+* UTF-8 encode url that is used in urllib.quote_plus(url)
 * Windows UTF-8 console via cp65001
 
 ### 0.x.x (2014-11-11 xx:xx:xx UTC)
