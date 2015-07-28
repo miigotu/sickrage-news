@@ -1,3 +1,25 @@
+### 4.0.47 (2015-07-28)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.46...v4.0.47)
+
+
+* Added: Popup confirmation before submitting errors
+* Fixed: Content returned from proxy still gzipped
+
+### 4.0.46 (2015-07-28)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.45...v4.0.46)
+
+
+* Added: Missing provider icons
+* Changed: Use issues even if they are closed for issue submitter
+* Changed: Align "Show Episodes" button in display show with Season number
+* Changed: Don't search eponly in sponly mode
+* Changed: Show skipped files in log INFO
+* Fixed: Bug preventing torrents with 0 leechers from being downloaded
+* Fixed: xthor crash (ratio)
+* Fixed: Xem refresh
+
 ### 4.0.45 (2015-07-26)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.44...v4.0.45)
