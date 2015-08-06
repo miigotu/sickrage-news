@@ -2,10 +2,17 @@
 
 <br/>
 
-####Please read [Wiki/FAQ](https://github.com/SiCKRAGETV/SickRage/wiki) before opening an issue####
+####Please read [Wiki/FAQ](https://github.com/SiCKRAGETV/sickrage-issues/wiki) before opening an issue####
 All issues and error reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket)
 
 We can track better errors reports in GitHub. Not so much in SickRage forum
+
+<br/>
+
+####2015-08-06####
+
+ - We need some help writing the Wiki for Anime. If you want to help please contact neoatomic in IRC
+ - All Wiki pages are now at this [URL](https://github.com/SiCKRAGETV/sickrage-issues/wiki) so users can contribute
 
 <br/>
 
