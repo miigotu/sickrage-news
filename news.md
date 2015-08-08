@@ -28,6 +28,12 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-08-08####
+
+- Switched to mako in develop branch. Please test it out and report in IRC, or on github. Security improvements such as moving sql out of the templates, form/input/uri validation to coming soon. Performance improvements coming also, such as moving js out of the templates. 
+
+<br />
+
 ####2015-07-21####
 
 - Added ability to run an external script for every subtitle downloaded (can be used to embed subs in mkv/mp4)
