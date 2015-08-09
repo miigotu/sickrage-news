@@ -9,6 +9,12 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-08-08####
+
+- Switched to mako in develop branch. Please test it out and report in IRC, or on github. Security improvements such as moving sql out of the templates, form/input/uri validation coming soon. Performance improvements coming also, such as moving js out of the templates.
+
+<br />
+
 ####2015-08-06####
 
  - We need some help writing the Wiki for Anime. If you want to help please contact neoatomic in IRC
@@ -27,12 +33,6 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
  - Now you can choose your default page when opening/logging to SR (General Options > Misc > Initial page)
 
 <br/>
-
-####2015-08-08####
-
-- Switched to mako in develop branch. Please test it out and report in IRC, or on github. Security improvements such as moving sql out of the templates, form/input/uri validation to coming soon. Performance improvements coming also, such as moving js out of the templates. 
-
-<br />
 
 ####2015-07-21####
 
