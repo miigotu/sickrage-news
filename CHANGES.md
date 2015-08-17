@@ -2,7 +2,6 @@
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.50...v4.0.51)
 
-* Changed: Major change to mako templates from cheetah
 * Added: Mako added to libraries
 * Added: New torrent client deluge daemon (deluged direct)
 * Added: View popular shows on IMDB (Still has issue with images)
@@ -10,11 +9,6 @@
 * Added: Send tweets via direct message
 * Added: Ability to use sounds with pushover notifications
 * Added: More missing network logos
-* Removed: Animezb provider (domain up for sale)
-* Updated: Hachoir library updated
-* Updated: Pynma to version 1.0
-* Updated: Wiki URL in post processing
-* Updated: Version checker urls, to use cdn.rawgit
 * Fixed: Stop starting backlog search on show updates
 * Fixed: Rarbg SSL error, switched to http from https
 * Fixed: NyaaTorrents bugs
@@ -22,30 +16,57 @@
 * Fixed: Subtitles flags on history
 * Fixed: Sending torrents to Download Station and others
 * Fixed: NyaaTorrents bug
+* Changed: Major change to mako templates from cheetah
+* Changed: Wiki URL in post processing
+* Changed: Version checker urls, to use cdn.rawgit
+* Updated: Hachoir library
+* Updated: Pynma to version 1.0
+* Removed: Animezb provider (domain up for sale)
 
 ### 4.0.50 (2015-08-04)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.49...v4.0.50)
 
+* Added: [1044] & -Siklopentan to removewordslist
 * Changed: Ignore search results when an episode is not aired yet
 * Changed: Newznab search method optimized
+* Changed: Name of provider icon abbeygirl.co.uk to new anonzbs.com
+* Changed: Display show/episode which image was unable to download
+* Changed: Don't accept results for episodes that have not aired yet
 * Fixed: PLEX Identification via User-Agent
+* Fixed: Indentation on emby notifier
+* Fixed: Missing session for nzbsplitter
 
 ### 4.0.49 (2015-08-01)
 
-[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.48..v4.0.49)
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.48...v4.0.49)
 
 * Added: Emby notifications
 * Added: CentOS/Fedora can now specify which Python version to run in /etc/sysconfig/sickrage
-* Changed: We only use US XEM Exceptions list
+* Added: Piratennzb provider icon
+* Changed: Only use US XEM in Exceptions list
+* Changed: Only email committer if build fails in travis
+* Changed: ```Unable to obtain cookie for ...``` log line to WARNING
+* Changed: Indexer time out error to warning
+* Fixed: Provider column in history for archived items
+* Fixed: Paused shows showing in webapi backlog query [more info](https://github.com/SiCKRAGETV/SickRage/commit/a9b7e3fd1416b137a1788932c259929b4fd06d5a)
+* Fixed: Subtitles flags in compact history view
+* Fixed: Fix equality vs identity problem in catching requests status codes for trakt
+* Fixed: Fix missing " in search.py
+* Fixed: Thread naming not showing up
+* Fixed: Not able to do a season pack search in manual search
 
 ### 4.0.48 (2015-07-29)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.47...v4.0.48)
 
 * Added: Before auto-submitting you must update to the latest release and enable debug
-* Changed: Updated guessit library
+* Change: Use zip64 for methods in helpers.py
+* Change: Increased timeout for xem
 * Fixed: A bug involving backup/restore losing settings
+* Fixed: Not able to connect to Trakt
+* Fixed: Bug in API [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2373)
+* Updated: guessit library
 
 ### 4.0.47 (2015-07-28)
 
@@ -53,7 +74,10 @@
 
 
 * Added: Popup confirmation before submitting errors
+* Change: Reverted text factory to May 19
 * Fixed: Content returned from proxy still gzipped
+* Fixed: Fix KAT and TPB via proxy
+* Fixed: Bad return on HDTorrents
 
 ### 4.0.46 (2015-07-28)
 
@@ -65,8 +89,10 @@
 * Changed: Align "Show Episodes" button in display show with Season number
 * Changed: Don't search eponly in sponly mode
 * Changed: Show skipped files in log INFO
+* Change: Behind the scenes cleaning of HDTorrents
 * Fixed: Bug preventing torrents with 0 leechers from being downloaded
-* Fixed: xthor crash (ratio)
+* Fixed: xthor crash (ratio) [more info](https://github.com/SiCKRAGETV/SickRage/commit/c7baabb709e8fdc407369e93fe92b035f75c5b3d)
+* Fixed: Libertalia search error [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2169)
 * Fixed: Xem refresh
 
 ### 4.0.45 (2015-07-26)
@@ -75,8 +101,10 @@
 
 
 * Added: Saving history limit
+* Change: Behind the scenes cleaning of KAT
 * Fixed: Paused show still downloading
 * Fixed: Don't pass None to markdown2 when request fails
+* Removed: Old code used before the SSL fixes
 
 ### 4.0.44 (2015-07-25)
 
