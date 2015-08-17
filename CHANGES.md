@@ -1,3 +1,27 @@
+### 4.0.50 (2015-08-04)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.49...v4.0.50)
+
+* Changed: Ignore search results when an episode is not aired yet
+* Changed: Newznab search method optimized
+* Fixed: PLEX Identification via User-Agent
+
+### 4.0.49 (2015-08-01)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.48..v4.0.49)
+
+* Added: Emby notifications
+* Added: CentOS/Fedora can now specify which Python version to run in /etc/sysconfig/sickrage
+* Changed: We only use US XEM Exceptions list
+
+### 4.0.48 (2015-07-29)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.47...v4.0.48)
+
+* Added: Before auto-submitting you must update to the latest release and enable debug
+* Changed: Updated guessit library
+* Fixed: A bug involving backup/restore losing settings
+
 ### 4.0.47 (2015-07-28)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.46...v4.0.47)
