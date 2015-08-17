@@ -9,6 +9,11 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-08-16####
+- Switched to using mako templates in master. We should have ironed out all the issues regarding mako in past week. If not, please open an issue, using the guidelines above!
+
+<br />
+
 ####2015-08-08####
 
 - Switched to mako in develop branch. Please test it out and report in IRC, or on github. Security improvements such as moving sql out of the templates, form/input/uri validation coming soon. Performance improvements coming also, such as moving js out of the templates.
