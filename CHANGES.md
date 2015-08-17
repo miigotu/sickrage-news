@@ -1,3 +1,28 @@
+### 4.0.51 (2015-08-16)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.50...v4.0.51)
+
+* Changed: Major change to mako templates from cheetah
+* Added: Mako added to libraries
+* Added: New torrent client deluge daemon (deluged direct)
+* Added: View popular shows on IMDB (Still has issue with images)
+* Added: Free disk space info on status page
+* Added: Send tweets via direct message
+* Added: Ability to use sounds with pushover notifications
+* Added: More missing network logos
+* Removed: Animezb provider (domain up for sale)
+* Updated: Hachoir library updated
+* Updated: Pynma to version 1.0
+* Updated: Wiki URL in post processing
+* Updated: Version checker urls, to use cdn.rawgit
+* Fixed: Stop starting backlog search on show updates
+* Fixed: Rarbg SSL error, switched to http from https
+* Fixed: NyaaTorrents bugs
+* Fixed: Prevent robots from indexing SR pages
+* Fixed: Subtitles flags on history
+* Fixed: Sending torrents to Download Station and others
+* Fixed: NyaaTorrents bug
+
 ### 4.0.50 (2015-08-04)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.49...v4.0.50)
