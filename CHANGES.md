@@ -1,3 +1,29 @@
+### 4.0.53 (2015-08-20)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.52...v4.0.53)
+
+* Added: .Renc to removewordlist
+* Fixed: Fix issue with getDBcompare()
+* Fixed: Status command always returning 0
+* Fixed: Debug setting
+* Fixed: Commit hash bug in updater
+* Fixed: Returned status code from init.debian script
+* Change: To not assume quality on files not downloaded yet
+* Change: Simplified pickBestResult
+* Updated: IMDBpy to 5.1dev20150705
+* Removed: Update on start and update on snatch to relive stress of indexers
+
+### 4.0.52 (2015-08-17)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.51...v4.0.52)
+
+* Fixed: Manage Torrents page
+* Fixed: Calendar view on coming episodes page
+* Fixed: Some missing topmenu defines
+* Change: Behind the scenes cleaning of jQuery code
+* Change: Made html validatable
+* Removed: Trakt rolling download feature
+
 ### 4.0.51 (2015-08-16)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.50...v4.0.51)
