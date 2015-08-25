@@ -1,3 +1,24 @@
+### 4.0.54 (2015-08-25)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.53...v4.0.54)
+
+* Added: Xbox Video network icon
+* Added: Ability for deluged to set torrent path, to the torrent download location
+* Fixed: Display of compound archived qualities, fix some issues with archive on first match
+* Fixed: Bug in displayShow where it was casting Unicode to string and barfing on foreign letters
+* Fixed: Bug in t411 that caused an exception when site was down, and proper finder was not working properly
+* Fixed: Browser side caching of objects in mako
+* Fixed: Add imdbPopular. NOTE: it is a bit slow the first time loading ,due to image caching
+* Fixed: Fix missing import in comingEpisodes
+* Change: Behind the scenes clean-up of the t411 provider
+* Change: Server threads status page improvements
+* Change: Allow pushover to use device default notification sound
+* Change: Removed raise from newznab & changed it to an ERROR
+* Change: Modified deluged_client.py to allow move to folder to be set
+* Changed missing API key from error to warning
+* Changed the hachoir method used to guess file quality, to try and make sure the file is closed before PP
+* Removed: Daily/backlog search on start-up as it causes incredibly useless strain on meta providers
+
 ### 4.0.53 (2015-08-20)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.52...v4.0.53)
