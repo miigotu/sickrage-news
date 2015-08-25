@@ -14,7 +14,7 @@
 * Change: Server threads status page improvements
 * Change: Allow pushover to use device default notification sound
 * Change: Removed raise from newznab & changed it to an ERROR
-* Change: Modified deluged_client.py to allow move to folder to be set
+* Change: Modified deluged to allow move to folder to be set
 * Changed missing API key from error to warning
 * Changed the hachoir method used to guess file quality, to try and make sure the file is closed before PP
 * Removed: Daily/backlog search on start-up as it causes incredibly useless strain on meta providers
@@ -109,7 +109,7 @@
 
 * Added: Before auto-submitting you must update to the latest release and enable debug
 * Change: Use zip64 for methods in helpers.py
-* Change: Increased timeout for xem
+* Change: Increased time-out for xem
 * Fixed: A bug involving backup/restore losing settings
 * Fixed: Not able to connect to Trakt
 * Fixed: Bug in API [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2373)
@@ -120,7 +120,7 @@
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.46...v4.0.47)
 
 
-* Added: Popup confirmation before submitting errors
+* Added: Pop-up confirmation before submitting errors
 * Change: Reverted text factory to May 19
 * Fixed: Content returned from proxy still gzipped
 * Fixed: Fix KAT and TPB via proxy
@@ -211,12 +211,12 @@
 * Change: Show REFRESH normal priority - avoid stuck other threads
 * Change: Show add priority
 * Change: Enable GIT RESET by default
-* Change: Stoped redirecting ssl error
-* Change: Stop building for 2.6, and set readme requirements to 2.7.x
+* Change: Stopped redirecting ssl error
+* Change: Stop building for 2.6, and set read-me requirements to 2.7.x
 * Change: Check free space of show folder instead of it's parent
 * Change: Migrated travis to a container-based infrastructure
 * Change: Made SxxExx pattern as default in log messages
-* Change: Show only basename of filename in display show
+* Change: Show only basename of file name in display show
 * Change: Disabled auto set as "air-by-date" as it's not a proper code.
 * Change: Made "Filter Row" in shows page enabled by default
 * Change: Show image dir in warning message"unable to retrieve image"
@@ -233,18 +233,18 @@
 * Added: Missing api methods to apibuilder
 * Added: A ton of new network logos
 * Fixed: Search indexers api
-* Fixed: Filesize requiring ZIP64 extensions
+* Fixed: File size requiring ZIP64 extensions
 * Fixed: Error on Cpasbien provider [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2203)
 * Fixed: WANTED episodes that haven't aired
 * Change: Don't allow chained call with command show.getnetworklogo
-* Change: Behind the scenes cleanup of ```tv.py```
+* Change: Behind the scenes clean-up of ```tv.py```
 * Removed: zoink.ch caching website
 
 ### 4.0.40 (2015-07-19)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.39...v4.0.40)
 
-* Change: Episodes with airdate = 1 arent considered as aired anymore
+* Change: Episodes with airdate = 1 arent considered as aired any more
 * Change: changes.md & news.md are now loaded from their own repo
 * Added: TitansOfTV torrent provider
 * Added: global and abc (ja) network icons
@@ -268,7 +268,7 @@
 * Added: Fox Crime logo
 * Added: Better log message when error downloading subs
 * Change: Improved log line for guessit/subliminal errors
-* Change: Use repo for network timezones and scene exceptions again
+* Change: Use repo for network time zones and scene exceptions again
 * Change: Add file name to error when subs download fails
 * Updated: readme.md & news.md
 
@@ -285,7 +285,7 @@
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.35...v4.0.36)
 
 * Fixed: Bug where already downloaded subtitles were not found if using a custom subtitles directory
-* Change: Catch a requests excetion when content-encoding is gzip but content is not
+* Change: Catch a requests exception when content-encoding is gzip but content is not
 
 ### 4.0.35(2015-07-16)
 
@@ -330,7 +330,7 @@
 * Added: Better integration on Chrome for android [more info](https://github.com/SiCKRAGETV/SickRage/pull/2089)
 * Added: API method to get a network logo
 * Added: New provider icons
-* Added: New sufixes and prefixes to removeWordsList
+* Added: New suffixes and prefixes to removeWordsList
 * Added: New option in config/general advanced settings (SSL Verify)
 * Added: enum34 dependancy for chardet
 * Removed: Disable TRAKT SSL Verify - absorbed by new setting
