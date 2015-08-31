@@ -1,3 +1,28 @@
+### 4.0.55 (2015-08-31)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.54...v4.0.55)
+
+* Added: Some network logos
+* Added: Print "Shows list" feature
+* Added: ".[BT]" to removewordlist
+* Fixed: Bug with hachoir and "File is locked for reading/writing" errors
+* Fixed: Bugs with trakt re-adding shows after they are deleted
+* Fixed: Bug with trakt trying to add shows that do not exist on the indexers
+* Change: Minified a lot of CSS and JS and/or use smaller implementations and remove unused CSS/JS (expect small discrepancies)
+* Change: Use minified version of jQuery-UI
+* Change: Load images after page load to speed up DOM
+* Change: Small improvements in deluged client code
+* Change: Use hachoir to detect quality of existing files that have no scene quality tags
+* Change: Removed hacky quality detection for search results that resulted in wrong guesses
+* Change: Use the show_queue for removing shows
+* Change: Code clean-up in kat/tpb providers
+* Change: Render more specific quality pills on show list when using custom quality setting
+* Changed Regex to recognize HEVC/x265/h265 in results
+* Updated: Bootstrap to 3.3.5
+* Updated: guessit to f25e1b30c60f334ad378d1146a900797e8f76240
+* Removed: Obsolete googlecode release management
+* Removed: Obsolete .exe distribution code
+
 ### 4.0.54 (2015-08-25)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.53...v4.0.54)
