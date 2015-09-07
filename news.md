@@ -9,6 +9,12 @@ We can track better errors reports in GitHub. Not so much in SickRage forum
 
 <br/>
 
+####2015-09-08####
+- We are removing support for autoProcessTV in favor of Clinton Hall's nzbToMedia project, which we have imported in contrib
+- autoProcessTV will be removed by 31-10-2015. Please update your postprocessing scripts or they will break.
+
+<br />
+
 ####2015-08-16####
 - Switched to using mako templates in master. We should have ironed out all the issues regarding mako in past week. If not, please open an issue, using the guidelines above!
 
