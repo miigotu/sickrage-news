@@ -8,7 +8,7 @@ All issues and bugs reports must be opened at [GitHub](https://github.com/SiCKRA
 <br/>
 
 ####2015-09-09####
-- As you might have noted the [TVRage](http://www.tvrage.com) website pulled the plug/shut down. And that is causing some issues we needed to address. We pushed a fix that automatically converts the TVRage ID to a TheTVDB ID. So that new data is pulled from theTVDB.com instead. That works for most users but sadly not all. So be aware that when u used TVRage shows, you might experience some issues. Be assured that we are working hard to get this all sorted out. 
+- As you might have noted the [TVRage](http://www.tvrage.com) website pulled the plug/shut down. And that is causing some issues we needed to address. We pushed a fix that automatically converts the TVRage ID to a TheTVDB ID. So that new data is pulled from theTVDB.com instead. That works for most users but sadly not all. So be aware that when you used TVRage shows, you might experience some issues. Be assured that we are working hard to get this all sorted out. 
 Also as a consequence of the TVRage shutdown we where forced to push some changes for the theme/layout that where not completely tested. Therefore the Network logos are currently not working. Fix comming soon.
 
 - But not only bad news, we have a brand new [SickRage installer](https://github.com/SiCKRAGETV/sickrage-issues/wiki/SickRage-Windows-Installer) for Windows.! 
