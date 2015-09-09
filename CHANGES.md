@@ -4,7 +4,6 @@
 
 * Added: Show "Add Anime" at the bottom of the anime tables
 * Fixed: Recursion depth exceeded error in providers login
-* Change: Display "Add anime" after the anime table
 * Change: Encode all unicode params before making request
 
 ### 4.0.57 (2015-09-09)
