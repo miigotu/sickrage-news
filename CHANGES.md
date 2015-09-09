@@ -27,7 +27,7 @@
 
 * Added: nzbToMedia scripts in a git submodule, under the contrib folder
 * Added: Total show size column
-* Added: Developer info to footer
+* Added: Developer debug info to footer
 * Added: Method for auto-fixing shows with tvrage ids to tvdb ids
 * Added: Missing network logos
 * Added: Missing spotweb.be provider icons
