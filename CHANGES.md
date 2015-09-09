@@ -2,6 +2,7 @@
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.57...v4.0.58)
 
+* Added: Show "Add Anime" at the bottom of the anime tables
 * Fixed: Recursion depth exceeded error in providers login
 * Change: Display "Add anime" after the anime table
 * Change: Encode all unicode params before making request
@@ -31,7 +32,6 @@
 * Added: Method for auto-fixing shows with tvrage ids to tvdb ids
 * Added: Missing network logos
 * Added: Missing spotweb.be provider icons
-* Added: Show "Add Anime" at the bottom of the anime tables
 * Added: Remove failed status if feature not enabled
 * Added: Handling of ratio and high priority for new releases for deluged_client
 * Added: "tensiontorrent.com" to removewordlist
