@@ -1,3 +1,39 @@
+### 4.0.61 (2015-09-13)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.60...v4.0.61)
+
+* Added: Missing Colors network logo
+* Added: Mako cache cleaner upon startup of new version
+* Added: Strike Provider
+* Fixed: Viewlogs not keeping url state
+* Fixed: Unable to use tracker HDbits
+* Fixed: Bug in pickBestResult
+* Changed: GitHub message from error to warning
+* Changed: Update submodules as well when we update SR
+* Changed: Override User Agent for RARBG
+
+### 4.0.60 (2015-09-11)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.59...v4.0.60)
+
+* Fixed: Missing images
+* Fixed: History page not displaying downloaded subtitles anymore
+* Fixed: HDT adding only one result to results list
+* Fixed: Confirmation dialogs not showing
+* Change: Metadata message about not finding image to info
+* Removed: jQuery image loading
+* Removed: Size column
+
+### 4.0.59 (2015-09-10)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.58...v4.0.59)
+
+* Added: Temp log lines
+* Fixed: Start making providers use params correctly, to fix cachecontrol
+* Fixed: Popular shows page title
+* Fixed: Header problem with torrent providers. Many need a real browser agent
+* Change: Show mako loading times for all
+
 ### 4.0.58 (2015-09-09)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.57...v4.0.58)
