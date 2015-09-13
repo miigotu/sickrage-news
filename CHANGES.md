@@ -1,3 +1,59 @@
+### 4.0.58 (2015-09-09)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.57...v4.0.58)
+
+* Added: Show "Add Anime" at the bottom of the anime tables
+* Fixed: Recursion depth exceeded error in providers login
+* Change: Encode all unicode params before making request
+
+### 4.0.57 (2015-09-09)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.56...v4.0.57)
+
+* Added: TNTVillage foreign show name searching
+* Fixed: Page Title for Trending Shows
+* Fixed: trendingShows page
+* Fixed: massEdit page
+* Fixed: Several mako bugs
+* Fixed: Resource module not being available in windows
+* Change: Better fix for converting tvrage ids
+* Change: Restored support for relative, absolute and empty paths for subtitles
+* Change: popularShows page to use cached imports
+* Removed: inc_top and inc_bottom mako templates
+
+### 4.0.56 (2015-09-08)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.55...v4.0.56)
+
+* Added: nzbToMedia scripts in a git submodule, under the contrib folder
+* Added: Total show size column
+* Added: Developer debug info to footer
+* Added: Method for auto-fixing shows with tvrage ids to tvdb ids
+* Added: Missing network logos
+* Added: Missing spotweb.be provider icons
+* Added: Remove failed status if feature not enabled
+* Added: Handling of ratio and high priority for new releases for deluged_client
+* Added: "tensiontorrent.com" to removewordlist
+* Fixed: Saving of history limit
+* Fixed: Bug in emby notifier, setting apikey
+* Fixed: Bugs regarding trakt
+* Fixed: NextGen when for searching with non ascii chars
+* Fixed: Save selection of pushover sound
+* Fixed: Boxcar test notification
+* Fixed: Post-Processing not moving subtitles
+* Fixed: libnotify (Linux desktop notifications)
+* Fixed: Twitter DM notifier
+* Change: Use .get in webUI instead of a refresh/reload
+* Change: Multiple changes to image loading in the webUI
+* Change: Start moving logic of webserve and webapi to shared classes
+* Change: Move gui to a views based layout using inheritance
+* Updated: guessit to 0.11.0
+* Updated: jQuery,which is now loaded from a cdn
+* Removed: freeze_support (used for compiling exe's)
+* Removed: SNI checking in SickBeard.py - didn't work
+* Removed: Unused imports
+* Removed: TVRage support app-wide
+
 ### 4.0.55 (2015-08-31)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.54...v4.0.55)
