@@ -16,19 +16,19 @@
 * Fixed: massEdit page
 * Fixed: Several mako bugs
 * Fixed: Resource module not being available in windows
-* Change: Better fix for converting tvrage ids
+* Change: Better fix for converting TVRage ids
 * Change: Restored support for relative, absolute and empty paths for subtitles
 * Change: popularShows page to use cached imports
-* Removed: inc_top and inc_bottom mako templates
+* Removed: `inc_top` and `inc_bottom` mako templates
 
 ### 4.0.56 (2015-09-08)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.55...v4.0.56)
 
-* Added: nzbToMedia scripts in a git submodule, under the contrib folder
+* Added: nzbToMedia scripts in a git submodule, under the `contrib` folder
 * Added: Total show size column
 * Added: Developer debug info to footer
-* Added: Method for auto-fixing shows with tvrage ids to tvdb ids
+* Added: Method for auto-fixing shows with TVRage ids to TVDB ids
 * Added: Missing network logos
 * Added: Missing spotweb.be provider icons
 * Added: Remove failed status if feature not enabled
