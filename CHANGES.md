@@ -1,3 +1,25 @@
+### 4.0.62 (2015-09-19)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.61...v4.0.62)
+
+* Fixed: Not showing dialog for removing shows
+* Fixed: T411 `NoneType` bug
+* Fixed: Submodule init/update on SickRage update
+* Fixed: Databse version checks in updater
+* Fixed: Embedded subtitles not detected
+* Fixed: SickRage invalid torrent
+* Changed: Move `home.js` into file
+* Changed: Changed from fuzzydate to timeago
+* Changed: searchURL to search_string
+* Changed: Move "Coming episodes" logic into a dedicated class
+* Changed: Only select required field in history
+* Changed: Moved "Coming Episodes" JavaScript to own file
+* Changed: Hide upgrade message on restart
+* Changed: Hide `git reset` option in Config > General since it is forced true
+* Changed: Do not `git clean`
+* Removed: Show size column
+* Removed: `use_imdb_popular` setting
+
 ### 4.0.61 (2015-09-13)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.60...v4.0.61)
