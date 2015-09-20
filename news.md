@@ -7,6 +7,12 @@ All issues and bugs reports must be opened at [GitHub](https://github.com/SiCKRA
 
 <br/>
 
+####2015-09-20####
+
+- #ShowsRage#
+- One of our contributors (MGaetan89) has released his android application for managing SickRage to google play. Be sure to check it out, rate, and provide feedback to show your support.
+You can read the full description and information on [Google Play](https://play.google.com/store/apps/details?id=com.mgaetan89.showsrage) and the [ShowsRage GitHub Project](https://github.com/MGaetan89/ShowsRage)
+
 ####2015-09-09####
 
 - As you might have noted the [TVRage](http://www.tvrage.com) website pulled the plug/shut down. And that is causing some issues we needed to address. We pushed a fix that automatically converts the TVRage ID to a TheTVDB ID. So that new data is pulled from theTVDB.com instead. That works for most users but sadly not all. So be aware that when you used TVRage shows, you might experience some issues. Be assured that we are working hard to get this all sorted out.
