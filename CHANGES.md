@@ -1,3 +1,14 @@
+### 4.0.64 (2015-09-20)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.63...v4.0.64)
+
+* Added: Dropdown arrow to "Select Column" button
+* Fixed: Alpharatio does not respond to the SSL version
+* Fixed: Inverted article searching
+* Fixed: Delete show
+* Fixed: Make "Coming Episodes" results mutable
+* Changed: Domain name for NextGen provider
+
 ### 4.0.63 (2015-09-20)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.62...v4.0.63)
