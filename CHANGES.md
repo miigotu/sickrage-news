@@ -1,3 +1,22 @@
+### 4.0.63 (2015-09-20)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.62...v4.0.63)
+
+* Added: TransmitTheNet provider
+* Added: TVChaosUK Provider
+* Fixed: Airdate on "Coming Episodes"
+* Fixed: Confirmation dialog for removing shows and make class more unique
+* Fixed: Initial>Allowed and Archive>Preferred and fix Archive list box size
+* Changed: Use common code to delete a show
+* Changed: Use common code to pause/resume a show
+* Changed: 'Initial' and 'Replace with' with 'Allowed' and 'Preferred'
+* Changed: Use common code to refresh a show
+* Changed: Adds missing docstrings / some minor fixes
+* Changed: Make Series packs work for TVChaosUK
+* Changed: Move `encodingKludge` to sickrage module
+* Changed: Enhance quality pills
+* Changed: Trakt message "Could not connect to trakt service" from error to warning
+
 ### 4.0.62 (2015-09-19)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.61...v4.0.62)
