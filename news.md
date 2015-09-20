@@ -3,15 +3,17 @@
 <br/>
 
 ####Please read the [Wiki/FAQ](https://github.com/SiCKRAGETV/sickrage-issues/wiki) before opening an issue####
-All issues and bugs reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) (not the forum!) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket)  
+All issues and bugs reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) (not the forum!) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket).
 
 <br/>
 
 ####2015-09-20####
 
 - #ShowsRage#
-- One of our contributors (MGaetan89) has released his android application for managing SickRage to google play. Be sure to check it out, rate, and provide feedback to show your support.
+- One of our contributors (MGaetan89) has released his Android application for managing SickRage to Google Play. Be sure to check it out, rate, and provide feedback to show your support.
 You can read the full description and information on [Google Play](https://play.google.com/store/apps/details?id=com.mgaetan89.showsrage) and the [ShowsRage GitHub Project](https://github.com/MGaetan89/ShowsRage)
+
+<br />
 
 ####2015-09-09####
 
@@ -19,6 +21,8 @@ You can read the full description and information on [Google Play](https://play.
 Also as a consequence of the TVRage shutdown we where forced to push some changes for the theme/layout that where not completely tested. Therefore the Network logos are currently not working. Fix coming soon.
 
 - But not only bad news, we have a brand new [SickRage installer](https://github.com/SiCKRAGETV/sickrage-issues/wiki/SickRage-Windows-Installer) for Windows!
+
+<br />
 
 ####2015-09-08####
 
