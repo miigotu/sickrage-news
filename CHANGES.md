@@ -4,7 +4,7 @@
 
 * Added: Public var to providers, and class to color them in css (unused yet)
 * Added: Wiki link to config/info page
-* Added: Temporary 'raise' to debug issue  [more info](https://github.com/SiCKRAGETV/sickrage-issues#2880)
+* Added: Temporary 'raise' to debug issue  [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2880)
 * Fixed: Class redefinition in mainDB.py
 * Fixed: Undefined FULLHDWEBDL
 * Fixed: "Jump to Season" selection dropdown on displayShow, and open the selected season
