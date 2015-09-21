@@ -1,3 +1,24 @@
+### 4.0.65 (2015-09-21)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.64...v4.0.65)
+
+* Added: Public var to providers, and class to color them in css (unused yet)
+* Added: Wiki link to config/info page
+* Added: Temporary 'raise' to debug issue  [more info](https://github.com/SiCKRAGETV/sickrage-issues#2880)
+* Fixed: Class redefinition in mainDB.py
+* Fixed: Undefined FULLHDWEBDL
+* Fixed: "Jump to Season" selection dropdown on displayShow, and open the selected season
+* Fixed: Bug about sqlite3.row in comingEpisodes
+* Change: Improved .gitignore
+* Change: Pylint SickBeard.py, logger.py, common.py, imdbPopular.py, name_parser
+* Change: Full lint on gui/slick/js
+* Change: Improved quality detection from filename and from meta
+* Change: Moved sickbeard/exceptions to sickrage/helper/exceptions
+* Change: Selectively import ElementTree or cElemenTree
+* Changed: imdbPopular url and improve parsing/headers/params
+* Changed: t411 url to new domain
+* Changed: Quality regex from hdtv to hd.?tv for source matching
+
 ### 4.0.64 (2015-09-20)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.63...v4.0.64)
