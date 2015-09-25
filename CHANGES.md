@@ -1,3 +1,43 @@
+### 4.0.67 (2015-09-26)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.66...v4.0.67)
+
+* Added: SIC, RTP, & TVcabo network logos (and respective sub-networks)
+* Added: Looging when a torrent is ignored for minseed/minleech reasons
+* Added: Show SR datetime in the bottom of page, Add tip to timezone setting
+* Fixed: Being able to add custom providers whose names start with numbers
+* Fixed: History limit and save on change limit
+* Fixed: Return the correct Content-Type for images through API 
+* Fixed: sbRoot in js, and other js fixes
+* Fixed: dailysearch not respecting timezone setting
+* Fixed: Tvchaos provider regex 
+* Fixed: Xthor add quotes to search string
+* Fixed: Embedded subtitles not detected bug  [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2774)
+* Fixed: Shows synced with Trakt having wrong default ep status 
+* Fixed: Snatched (Proper) 1080p WEB-DL not fitting on a single line
+* Fixed: Restore only being processed when console logging is enabled
+* Fixed: ntpath being windows only
+* Change: Improved initial page setting options
+* Change: Updated API documentation
+* Change: Don't format JSON before sending the response
+* Change: "Fix" some provider urls to reduce user confision
+* Change: Moved more js out of mako and linted
+* Change: Don't show 'add' button in imdb popular if user already have the show
+
+### 4.0.66 (2015-09-23)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.65...v4.0.66)
+
+* Added: Color difference in provider divs to differentate nzb and torrent providers
+* Added: Some problems with pushover
+* Fixed: Imports in gui for exceptions
+* Fixed: Custom qualities
+* Fixed: imdbPopular page
+* Fixed: Black/white list
+* Fixed: Previous episode airdate sorting
+* Fixed: Update issue [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2883)
+* Change: Show 'propers serarch disabled' in manage searches if disabled
+
 ### 4.0.65 (2015-09-21)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.64...v4.0.65)
