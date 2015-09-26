@@ -12,6 +12,8 @@ All issues and bug reports must be opened at [GitHub](https://github.com/SiCKRAG
 - Today we introduced our new [Feature Tracker.](http://feathub.com/SiCKRAGETV/SickRage) Let us know what features YOU would like to see added. And cast your vote for the already submitted features. 
 - (All feature requests should go to the new tracker, not the forum or issue-tracker.)
 
+<br/>
+
 ####2015-09-20####
 
 - *ShowsRage*
