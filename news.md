@@ -3,13 +3,18 @@
 <br/>
 
 ####Please read the [Wiki/FAQ](https://github.com/SiCKRAGETV/sickrage-issues/wiki) before opening an issue####
-All issues and bugs reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) (not the forum!) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket).
+All issues and bug reports must be opened at [GitHub](https://github.com/SiCKRAGETV/sickrage-issues/issues) (not the forum!) and you **MUST** follow **ALL** [guidelines](https://github.com/SiCKRAGETV/sickrage-issues#submitting-a-bugissue-ticket).
 
 <br/>
 
+####2015-09-26####
+
+- Today we introduced our new [Feature Tracker.](http://feathub.com/SiCKRAGETV/SickRage) Let us know what features YOU would like to see added. And cast your vote for the already submitted features. 
+- (All feature requests should go to the new tracker, not the forum or issue-tracker.)
+
 ####2015-09-20####
 
-- #ShowsRage#
+- *ShowsRage*
 - One of our contributors (MGaetan89) has released his Android application for managing SickRage to Google Play. Be sure to check it out, rate, and provide feedback to show your support.
 You can read the full description and information on [Google Play](https://play.google.com/store/apps/details?id=com.mgaetan89.showsrage) and the [ShowsRage GitHub Project](https://github.com/MGaetan89/ShowsRage)
 
