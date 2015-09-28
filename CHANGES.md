@@ -1,3 +1,38 @@
+### 4.0.68 (2015-09-28)
+
+[full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.67...v4.0.68)
+
+* Added: Preliminary support for tvdbid search on indexers
+* Added: Webrip properly in guessing
+* Added: TorrentProject torrent provider
+* Added: never back to airdate
+* Added: ALL brazilian networks logos
+* Added: "srRoot" template variable
+* Added: Saving as default archive on first match option
+* Added: id= to header tags, so that links can be given in the form of 'http://localhost:8081/news/#2015-09-26'
+* Fixed: Info icon on custom naming legend
+* Fixed: Isodate
+* Fixed: Not being able to set status to compound archived qualities
+* Fixed: Sub folder not created for new shows
+* Fixed: Subtitle recognition with sigle language
+* Fixed: Sickrage not starting on Openelec and Audo with RPi2 and others.  [more info](http://openelec.tv/forum/80-sabnzbd-suite/78152-unable-to-bring-up-sickrage-page-after-autoupdate?start=45)
+* Fixed: Permission when creating shows/season folders [more info](https://github.com/SiCKRAGETV/sickrage-issues/issues/2969)
+* Fixed: config_subtitles page
+* Fixed: Wrong subtitle language codes
+* Fixed: Quality Chooser not expanding custom qualities fields
+* Fixed: Missing import in webapi
+* Change: Moved more js to own files
+* Change: Fixes with ARCHIVED Qualities, we will only use compound ARCHIVED qualities from now on
+* Change: Linted several python files
+* Change: Moved from sbRoot to srRoot
+* Change: New API builder
+* Change: Force CacheControl to use MkdirLockFile.
+* Changed error towarning for "not enough enabled services in subtitles" log line
+* Updated: 6Box logo
+* Updated: pylockfile to 4a7a20d91c44d2be6396be5fc64d27b0b5afa4e2
+* Removed: Unused provider logos
+* Removed: Fuzzydate and library
+
 ### 4.0.67 (2015-09-26)
 
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.66...v4.0.67)
