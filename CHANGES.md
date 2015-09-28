@@ -64,7 +64,7 @@
 [full changelog](https://github.com/SiCKRAGETV/SickRage/compare/v4.0.65...v4.0.66)
 
 * Added: Color difference in provider divs to differentate nzb and torrent providers
-* Added: Some problems with pushover
+* Fixed: Some problems with pushover
 * Fixed: Imports in gui for exceptions
 * Fixed: Custom qualities
 * Fixed: imdbPopular page
