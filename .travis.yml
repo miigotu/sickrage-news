@@ -1,8 +1,2 @@
-language: bash
-
-script: cd
-
-branches:
-  - gh-pages
 notifications:
   irc: "irc.freenode.net#sickrage-issues"
